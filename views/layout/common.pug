@@ -1,0 +1,28 @@
+html
+  head
+    link(rel="icon", href="https://cdn.glitch.com/e2543b88-e6b0-4411-9138-2efac809ea53%2Ffavion.png?v=1587636844112")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css") 
+    link(rel="stylesheet", href="/custom.css")
+  body  
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        ul(class="navbar-nav float-left")
+          li(class="nav-item")
+            a.nav-link(href='./') Home
+          li(class="nav-item")
+            a.nav-link(href='./book') Book
+          li(class="nav-item")
+            a.nav-link(href='./users') Users
+          li(class="nav-item ")
+            a.nav-link(href='./transactions') Transactions
+          li(class="nav-item")
+            a.nav-link(href='./cart') Cart
+          li(class="nav-item")
+            if count
+              sup=count
+        if user
+          span Wellcome 
+          span &nbsp
+          span(class=" float-left")= user.name
+    .container.pt-3
+      block content
+      

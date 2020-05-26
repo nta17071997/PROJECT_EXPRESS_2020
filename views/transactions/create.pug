@@ -1,0 +1,15 @@
+extends ../layout/common
+block content  
+  h1 CREATE TRANSACTIONS
+  form(action="/transactions/create", method="POST", class="form-control")
+    .form-group
+      label(for="userId") Choose a user:
+      select#userId(name="userId", class="custom-select")
+        each user in users
+          option(value=user.name)= user.name
+    .form-group
+      label(for="bookId") Choose a book:
+        select#bookId(name="bookId", class="custom-select")
+          each book in books
+            option(value=book.title)= book.title
+    button(class="btn btn-primary") Create

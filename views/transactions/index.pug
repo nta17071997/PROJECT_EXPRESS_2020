@@ -1,0 +1,26 @@
+extends ../layout/common
+block content
+  
+  h1 TRANSACTIONS
+
+  a.btn.btn-primary.mb-2(href="/transactions/create") NewTrans
+  table.table
+    tr
+      th UserId
+      th BookId
+      th Action
+      th Finish
+    each trans in transactions
+      tr
+        td
+          span= trans.userId
+        td
+          span= trans.bookId 
+        td
+          a(href="/transactions/" + trans._id + "/edit") Edit
+          span &nbsp
+          a(href="/transactions/" + trans._id + "/delete") Delete
+        td
+          if trans.isComplete=== "true"
+            a(href="/transactions/" + trans._id + "/complete") Hoan Thanh
+  include ../layout/pagination.pug

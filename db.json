@@ -1,0 +1,455 @@
+{
+  "books": [
+    {
+      "title": "MICROSOFT AZURE",
+      "description": "Microsoft Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+      "id": "cvyITRdGI",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/hpvifmvpkbjalyxaizww.jpg"
+    },
+    {
+      "title": "UBUNTU",
+      "description": "Ubuntu is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core for the internet of things devices and robots. All the editions can run on the computer alone, or in a virtual machine.",
+      "id": "-dnH8Qt90",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/mvugd8oihqmdf8h3wiib.jpg"
+    },
+    {
+      "title": "ANSIBLE",
+      "description": "Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows. It includes its own declarative language to describe system configuration. ",
+      "id": "PExrqEqt0",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/qgv4atzvcxnqfbhwylfn.jpg"
+    },
+    {
+      "title": "MYSQL",
+      "description": "MySQL is an open-source relational database management system. Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language",
+      "id": "XkuRU9hGX",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/ghzufgyox9ndgmndjfti.jpg"
+    },
+    {
+      "title": "LINUX",
+      "description": "Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution",
+      "id": "Pa7GbwbQG",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/wnjtbvsbiza6unwaosya.jpg"
+    },
+    {
+      "title": "NGINX",
+      "description": "Nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and first publicly released in 2004. A company of the same name was founded in 2011 to provide support and Nginx plus paid software",
+      "id": "m3qxg09Se",
+      "image": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/w2p1pa9tahr9q9aemy0y.jpg"
+    },
+    {
+      "title": "DOCKER",
+      "description": "Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. ",
+      "id": "QTqPV-z6j"
+    },
+    {
+      "title": "EXPRESS",
+      "description": "Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.",
+      "id": "nkClMBLyL"
+    },
+    {
+      "title": "MONGODB",
+      "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License",
+      "id": "hdjT_r1FP"
+    },
+    {
+      "title": "GIT",
+      "description": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows",
+      "id": "_kmcOKb61"
+    },
+    {
+      "title": "NODE",
+      "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser",
+      "id": "f_oZ7Ccwg"
+    },
+    {
+      "title": "REACT",
+      "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications",
+      "id": "E276K25BH"
+    },
+    {
+      "title": "VUE",
+      "description": "Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru",
+      "id": "KTY-AsbO1"
+    },
+    {
+      "title": "ANGULAR",
+      "description": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS",
+      "id": "Wq68vEMj-"
+    },
+    {
+      "title": "SASS",
+      "description": "Sass is a style sheet language initially designed by Hampton Catlin and developed by Natalie Weizenbaum. After its initial versions, Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript, a scripting language used in Sass files",
+      "id": "il1JvFXgz"
+    },
+    {
+      "title": "CSS",
+      "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript",
+      "id": "6G-ihXGGO"
+    },
+    {
+      "title": "BOOTSTRAP",
+      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+      "id": "3JcIEBUR-"
+    },
+    {
+      "title": "JQUERY",
+      "description": "JQuery là một thư viện JavaScript thu nhỏ. Có tác dụng giúp tạo ra các tương tác, sự kiện, hiệu ứng trên website… một cách dễ dàng.",
+      "id": "whri9sExl"
+    },
+    {
+      "title": "FullStack Developer",
+      "description": "Full-Stack Developer là người phụ trách cả front-end (thiết kế UI, UX và flow) cho tới back-end (thiết kế database và viết các API cần thiết) của hệ thống.",
+      "id": "Px5a4ES6P"
+    },
+    {
+      "title": "Hỗ trợ học Javascript",
+      "description": "JavaScript is the programming language of HTML and the Web.  JavaScript is easy to learn.  This tutorial will teach you JavaScript from basic to advanced.",
+      "id": "b0JcIgqsR"
+    },
+    {
+      "title": "HTML",
+      "description": "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
+      "id": "xmuudQy1U"
+    }
+  ],
+  "users": [
+    {
+      "id": "VnvK6mCYF",
+      "name": "Nhi",
+      "phone": "089685454",
+      "email": "nhi@gmail.com",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923825/winbkph6ajxpdwhomb5j.jpg"
+    },
+    {
+      "id": "5URT8KLj-",
+      "name": "Long",
+      "phone": "098637867",
+      "email": "long@gmail.com",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588920416/l4wl1mdt0kyuhkxgcm5a.jpg"
+    },
+    {
+      "id": "H_3n5ASk5",
+      "name": "Tung",
+      "phone": "09862725",
+      "email": "tung@gmail.com",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588920386/ml3ua2d58entwru0ssib.jpg"
+    },
+    {
+      "id": "59fg3keVk",
+      "name": "an",
+      "phone": "0924242",
+      "email": "thanh.info@gmail.com",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923883/hyfujhzni6tg86abwj8v.jpg"
+    },
+    {
+      "id": "n9ExLQWxB",
+      "name": "Thanh",
+      "phone": "0924242",
+      "email": "thanh.info@gmail.com",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588919905/e1aizlljyvcv4grewrqh.png"
+    },
+    {
+      "name": "Hải",
+      "phone": "0983878766",
+      "email": "hai@gmail.com",
+      "password": "123123",
+      "id": "4IPQCDxkC",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923871/w2p1pa9tahr9q9aemy0y.jpg",
+      "wrongLoginCount": null
+    },
+    {
+      "name": "Giáp",
+      "phone": "0926256878",
+      "email": "giap@gmail.com",
+      "password": "123123",
+      "id": "_n1BQsKbe",
+      "avatar": "http://res.cloudinary.com/nguyenthanhan/image/upload/v1588923896/go3gfh5tlyx7grfjbcnd.jpg"
+    },
+    {
+      "name": "Đại",
+      "phone": "0972567125",
+      "email": "dai@gmail.com",
+      "password": "123123",
+      "id": "EI6DZ3Z2c"
+    },
+    {
+      "name": "Công",
+      "phone": "0967543238",
+      "email": "cong@gmail.com",
+      "password": "123123",
+      "id": "rhqtSxohq"
+    },
+    {
+      "name": "Cường",
+      "phone": "0987656523",
+      "email": "cuong@gmail.com",
+      "password": "123123",
+      "id": "QIAmTggqn"
+    },
+    {
+      "name": "Anh",
+      "phone": "0986256762",
+      "email": "anh@gmail.com",
+      "password": "123123",
+      "id": "gBrSu20El"
+    },
+    {
+      "name": "Tuan",
+      "phone": "098738837",
+      "email": "tuan@gmail.com",
+      "password": "123123",
+      "id": "hitBEj6dB"
+    },
+    {
+      "name": "Tinh",
+      "phone": "092836622",
+      "email": "tinh@gmail.com",
+      "password": "123123",
+      "id": "1AmIp2aR_"
+    },
+    {
+      "name": "Thai",
+      "phone": "0986578821",
+      "email": "thai@gmail.com",
+      "password": "123123",
+      "id": "4x1RSIEnY"
+    },
+    {
+      "name": "Nam",
+      "phone": "0886528898",
+      "email": "nam@gmail.com",
+      "password": "123123",
+      "id": "NZtzbI1HR"
+    },
+    {
+      "name": "Tạo",
+      "phone": "0986547896",
+      "email": "tao@gmail.com",
+      "password": "123123",
+      "id": "xpsL84W7d"
+    },
+    {
+      "name": "Điệu",
+      "phone": "0996625778",
+      "email": "dieu@gmail.com",
+      "password": "123123",
+      "id": "CDtiQWya1"
+    },
+    {
+      "name": "Dinh",
+      "phone": "09866645788",
+      "email": "dinh@gmail.com",
+      "password": "123123",
+      "id": "-JH9xMp3s"
+    },
+    {
+      "name": "Duong",
+      "phone": "98682667366",
+      "email": "duong@gmail.com",
+      "password": "123123",
+      "id": "JCZiI6--7"
+    },
+    {
+      "name": "Hien",
+      "phone": "0987826467",
+      "email": "hien@gmail.com",
+      "password": "123123",
+      "id": "8MSnF_HnU"
+    },
+    {
+      "name": "An",
+      "id": "pzndTOGxZ",
+      "phone": "099888822",
+      "email": "info@gmail.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": "true",
+      "wrongLoginCount": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": "WfvWP04-Gc",
+      "userId": "Hải",
+      "bookId": "MICROSOFT AZURE",
+      "isComplete": "true"
+    },
+    {
+      "id": "AVfNKe-LI",
+      "userId": "Hải",
+      "bookId": "UBUNTU",
+      "isComplete": false
+    },
+    {
+      "id": "2bNian6F9Z",
+      "userId": "Hải",
+      "bookId": "MYSQL",
+      "isComplete": "true"
+    },
+    {
+      "id": "kcurmfH4dn",
+      "userId": "Hải",
+      "bookId": "NGINX",
+      "isComplete": false
+    },
+    {
+      "id": "jaHW6b_eL",
+      "userId": "Hải",
+      "bookId": "LINUX",
+      "isComplete": false
+    },
+    {
+      "id": "xXi0smgFE",
+      "userId": "Hải",
+      "bookId": "ANSIBLE",
+      "isComplete": false
+    },
+    {
+      "userId": "Thai",
+      "bookId": "MICROSOFT AZURE",
+      "id": "i6kPYKfD3"
+    },
+    {
+      "userId": "An",
+      "bookId": "FullStack Developer",
+      "id": "L38TQXjR6"
+    },
+    {
+      "userId": "Linh",
+      "bookId": "Nodejs",
+      "id": "8KeJVeePT",
+      "isComplete": "true"
+    },
+    {
+      "userId": "Thinh",
+      "bookId": "Hỗ trợ học Javascript",
+      "isComplete": "false",
+      "id": "PiGvlC5Ua"
+    },
+    {
+      "userId": "Hoang",
+      "bookId": "Hỗ trợ học Javascript",
+      "id": "vKG-HJSeb",
+      "isComplete": "true"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ktMlAUnP7"
+    },
+    {
+      "id": "4DjG6f0_e"
+    },
+    {
+      "id": "915Q310bV"
+    },
+    {
+      "id": "3OeCuWNcL"
+    },
+    {
+      "id": "L2s5sUcuf"
+    },
+    {
+      "id": "WP9MMnT46"
+    },
+    {
+      "id": "FLUy1O8Ck"
+    },
+    {
+      "id": "9PfnYvk9D"
+    },
+    {
+      "id": "1sF0Nda2q"
+    },
+    {
+      "id": "_9dENHRxn"
+    },
+    {
+      "id": "ZsTXpJBGw"
+    },
+    {
+      "id": "NLxDX-NDo"
+    },
+    {
+      "id": "IjbxX0vX9"
+    },
+    {
+      "id": "wIw7rTUrJ"
+    },
+    {
+      "id": "j3T5ionVM"
+    },
+    {
+      "id": "x7n1YYXug"
+    },
+    {
+      "id": "9agK5kLC1"
+    },
+    {
+      "id": "aXNede7D3"
+    },
+    {
+      "id": "BrSyVjQVlN"
+    },
+    {
+      "id": "RS3_bxmTl"
+    },
+    {
+      "id": "H8Zv8K5av"
+    },
+    {
+      "id": "ajY5AFS2gw"
+    },
+    {
+      "id": "2HkcaMa2C"
+    },
+    {
+      "id": "N2JC3T4viI"
+    },
+    {
+      "id": "2T67JMprQ"
+    },
+    {
+      "id": "ASWOcCxnj"
+    },
+    {
+      "id": "BSYfa6jjL"
+    },
+    {
+      "id": "oBJQ6Hmy8"
+    },
+    {
+      "id": "oVKSrBKnV"
+    },
+    {
+      "id": "3EMvUjn7j"
+    },
+    {
+      "id": "2n3jI3zRs"
+    },
+    {
+      "id": "R7OWNO14IR"
+    },
+    {
+      "id": "qMUiDN-D8"
+    },
+    {
+      "id": "t-QQW-fbf"
+    },
+    {
+      "id": "H3dntXLil"
+    },
+    {
+      "id": "BuP6uB1dv",
+      "cart": {}
+    },
+    {
+      "id": "thtz7ttkW",
+      "cart": {
+        "Pa7GbwbQG": 2
+      }
+    },
+    {
+      "id": "wHWjKRsPg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+extends ../layout/common
+block content
+    h1.text-center PROFILE
+    table.table
+        tr 
+            th Avatar
+            th Name
+            th Phone
+            th Email
+        tr
+            td
+                img(src=user.avatar, width='50',height="60")
+                a.btn.btn-primary.ml-3(href='/users/profile/avatar/'+user.id) Change Avatar 
+                
+            td 
+                p=user.name
+            td 
+                p=user.phone
+            td 
+                p=user.email
