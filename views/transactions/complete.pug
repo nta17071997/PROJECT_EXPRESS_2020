@@ -1,0 +1,6 @@
+extends ../layout/common
+block content  
+  h1 COMPLETE TRANSACTIONS
+  form(action="/transactions/"+ trans._id+ "/compelete", method="POST")
+    h2 TransId: 
+      span= trans._id

@@ -1,0 +1,17 @@
+extends ../layout/common
+block content              
+    h1 Create book
+    if errors
+        each err in errors
+            .alert.alert-danger= err
+    form(action="/book/create", method="POST", class="form-control", enctype="multipart/form-data")
+        .form-group
+            label(for="title") Title 
+            input#title.form-control(type="text", name="title", value=values?values.title:"")
+        .form-group
+            label(for="description") Description 
+            input#description.form-control(type="text", name="description", value=values?values.description:"")
+        .form-group
+            label(for="image") Avatar 
+            input#image.form-control-file(type="file", name="coverUrl")
+        button(class="btn btn-primary") Create

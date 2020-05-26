@@ -1,0 +1,16 @@
+extends ../layout/common
+block content  
+  h1 Update transaction
+  form(action="/transactions/"+trans._id+"/edit",  method="POST", class="form-control")
+    .form-group
+      label(for="userId") UserId: 
+      input#userId(type="text", name="UserId", class="form-control", value=trans.userId)
+    .form-group  
+      label(for="bookId") BookId: 
+      input#bookId(type="text", name="BookId", class="form-control" value=trans.bookId)
+    .form-group
+      label(for="isComplete") Choose a complete:
+      select#isComplete(name="isComplete", class="custom-select")
+        option(value=trans.isComlete)= false
+        option(value=trans.isComlete)= true
+    button(class="btn btn-primary") Update
